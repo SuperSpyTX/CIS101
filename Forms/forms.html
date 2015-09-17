@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+ <style type="text/css">
+ @keyframes fadeIn {
+  to {
+    opacity: 1;
+    color: blue; font-size: 100px;
+  }
+ }
+
+ @keyframes fadeOut {
+   from {
+     opacity: 1;
+     color: blue; font-size: 250px;
+   }
+    to {
+      opacity: 1;
+      color: black;
+    }
+ }
+
+
+ body {
+   text-align: center;
+ }
+ .proper-align {
+   width: 10%;
+   margin: auto;
+ }
+ </style>
+ <script src="scripts/form.js"></script>
+ <title>Forms</title>
+ </head>
+ <body>
+ <hr>
+<h1>Forms</h1>
+ <h3>By Joe K</h3>
+
+ <h4>First half of class: </h4>
+ <form name="kek" action="#" method="post" accept-charset="utf-8">
+   <div class="proper-align">
+     <span>Decimal:</span> <input name="decimal" type="text"></input><br /><br />
+     <span>Hexadecimal:</span> <input name="hexadecimal" type="text"></input><br /><br />
+   </div>
+   <input type="submit" name="submit" value="Submit" onclick="return form_submit()"></input>
+ </form>
+
+ <h4>Second half of class: </h4>
+ <form class="dummyform" action="#" method="post">
+   <span>First name:</span><br>
+  <input type="text" name="firstname" value="James">
+  <br>
+  <span>Last name:</span><br>
+  <input type="text" name="lastname" value="Bond">
+  <hr>
+  <input type="radio" name="gender" value="male" checked><span>Male</span></input>
+  <br>
+  <input type="radio" name="gender" value="female"><span>Female</span></input>
+  <hr>
+  <input type="checkbox" name="books" value="king"><span>I have read a Stephen King novel.</span></input>
+  <br>
+  <input type="checkbox" name="books" value="poe"><span> I have read an Edgar Allan Poe novel.</span></input>
+  <hr>
+  <select name="cars">
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="fiat">Fiat</option>
+  <option value="audi">Audi</option>
+  </select>
+  <hr>
+  <textarea name="message" rows="10" cols="30">
+  Type in your own opinion.
+  </textarea>
+  <hr>
+  <span>Quantity (between 1 and 5):</span>
+  <input type="number" name="quantity" min="1" max="5">
+  <input type="submit">
+  <hr>
+
+
+  <input type="submit">
+
+  </form>
+
+
+ </form>
+</body>
+</html>
