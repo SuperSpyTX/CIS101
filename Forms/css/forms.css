@@ -1,0 +1,27 @@
+
+@keyframes fadeIn {
+ to {
+   opacity: 1;
+   color: blue; font-size: 100px;
+ }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+    color: blue; font-size: 100px;
+  }
+   to {
+     opacity: 1;
+     color: black;
+   }
+}
+
+
+body {
+  text-align: center;
+}
+.proper-align {
+  width: 10%;
+  margin: auto;
+}

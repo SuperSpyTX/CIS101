@@ -20,11 +20,11 @@ function set_color_blue(id, set_as_blue) {
   }
   if (set_as_blue) {
     hasDelay[id] = Date.now();
-    document.getElementById(id).style = "animation: fadeIn 1s ease-in 1 forwards;";
+    document.getElementById(id).style = "animation: fadeIn 8.5s ease-in 1 forwards;";
   } else {
     setTimeout(function() {
-      document.getElementById(id).style = "animation: fadeOut 2s ease-in 1 forwards;";
-    }, 10500);
+      document.getElementById(id).style = "animation: fadeOut 8.5s ease-in 1 forwards;";
+    }, 8500);
   }
 }
 

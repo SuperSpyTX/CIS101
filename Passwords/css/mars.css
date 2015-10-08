@@ -1,0 +1,16 @@
+#no_access_msg {
+  display: none;
+  text-decoration: underline;
+}
+
+#breached_access {
+  display: none;
+}
+
+#data_access {
+  display: none;
+}
+
+a.invisible_link {
+  color: #000;
+}

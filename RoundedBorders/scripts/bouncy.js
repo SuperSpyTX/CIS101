@@ -49,7 +49,6 @@ setTimeout(function() {
         // LOLOLOLOLOLOL
         console.log("EASTER EGG!");
         setTimeout(function() {
-
           document.getElementById("lel").innerHTML = "Bees Pill";
           var bees = document.createElement("img");
           bees.src = "images/bees_oprah.gif";
